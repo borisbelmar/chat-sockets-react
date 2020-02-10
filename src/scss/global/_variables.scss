@@ -1,0 +1,55 @@
+// Colores
+
+$primaryColor: hsl(150, 100%, 50%) !default;
+$secondaryColor: hsl(40, 100%, 50%) !default;
+$black: hsl(0, 0%, 10%) !default;
+$white: hsl(0, 0%, 100%) !default;
+$warning: hsl(48,  100%, 67%) !default;
+$success: rgb(11, 22, 15) !default;
+$info: hsl(204, 71%,  53%) !default;
+$danger: hsl(348, 86%, 61%) !default;
+
+// Background Colors
+$bgColorLight: mix(black, $white, 2%) !default;
+$bgColorDark: mix(white, $black, 2%) !default;
+
+// Fuentes
+
+$font-family: 'Source Code Pro', sans-serif !default;
+$font-url: 'https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600,700&display=swap';
+$font-size: 16px !default; 
+
+// Medidas
+
+$lg-padding: 4rem;
+$md-padding: 2rem;
+$sm-padding: 1rem;
+$item-padding: 1rem;
+
+$navbar-height: 5rem;
+
+// Radios
+
+$lg-radius: 1rem;
+$md-radius: 0.5rem;
+$sm-radius: 0.25rem;
+
+// Sombras
+
+$default-shadow: 0px 4px 16px hsla(0, 0, 0, 0.5);
+$soft-shadow: 0px 2px 16px hsla(0, 0, 0, 0.1);
+
+// Transiciones
+
+$fast: 150ms;
+$smooth: 200ms;
+$slow: 300ms;
+$slower: 500ms;
+
+// Layout
+
+$xxl-break: 2040px;
+$xl-break: 1600px;
+$lg-break: 1100px;
+$md-break: 768px;
+$sm-break: 576px;

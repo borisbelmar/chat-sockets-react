@@ -1,0 +1,37 @@
+@import url($font-url);
+
+:root {
+  font-size: $font-size;
+  background-color: $black;
+  color: $white;
+  font-family: $font-family;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  @media screen and (max-width: $md-break) {
+      font-size: 85%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.container {
+  @media screen and (min-width: $lg-break) {
+      padding: 0 $lg-padding;
+  } 
+  @media screen and (max-width: $lg-break) and (min-width: $md-break) {
+      padding: 0 $md-padding;
+  }
+  @media screen and (max-width: $md-break) {
+      padding: 0 $md-padding;
+  }
+}
+
+@include headingGenerator(2.5rem);

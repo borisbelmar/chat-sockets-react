@@ -1,0 +1,16 @@
+@import '../../../scss/global/all';
+
+.Home {
+  padding: 3rem 0;
+  .container > h4 {
+    margin-bottom: 2rem;
+  }
+  .buttons {
+    .Button {
+      margin-right: 0.5rem;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

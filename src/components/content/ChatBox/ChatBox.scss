@@ -1,0 +1,12 @@
+@import '../../../scss/global/all';
+
+.ChatBox {
+  .box {
+    height: 50vh;
+    overflow-y: scroll;
+    border: 2px solid $white;
+    padding: 1.25rem;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+  }
+}
